@@ -2,7 +2,7 @@
 
 process.title = "Search Engine";
 
-var webSocketsServerPort = 8080;
+var webSocketsServerPort = 1234;
 var webSocketServer = require('websocket').server;
 var http = require('http');
 var mongoDb = require('mongodb').MongoClient;
